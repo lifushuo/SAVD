@@ -1,0 +1,29 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Generated experiment outputs
+checkpoints/
+logs/
+results/
+.coverage
+htmlcov/
+
+# Compiled solver artifacts
+LKH-3.0.13/LKH
+LKH-3.0.13/LKH.exe
+*.o
+*.obj
+
+# Operating system files
+.DS_Store
+Thumbs.db
